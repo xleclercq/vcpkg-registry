@@ -1,7 +1,7 @@
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO codesmithyide/cmake-tutorials
-    REF v1.0.0
+    REF d579967396548885508b59fea83c39eda2ecb026
     SHA512 0
     HEAD_REF master
 )

@@ -1,5 +1,15 @@
 {
   "name": "cmake-hello-world",
   "version-string": "1.0.0",
-  "description": "CMake Hello World"
+  "description": "CMake Hello World",
+  "dependencies": [
+    {
+      "name": "vcpkg-cmake",
+      "host": true
+    },
+    {
+      "name": "vcpkg-cmake-config",
+      "host": true
+    }
+  ]
 }
